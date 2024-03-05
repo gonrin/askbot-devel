@@ -2,7 +2,7 @@
 import ipaddress
 import os
 import re
-import zoneinfo
+from backports import zoneinfo
 from django.core.exceptions import ValidationError
 from django.conf.global_settings import LANGUAGES
 from askbot.utils.loading import load_module
