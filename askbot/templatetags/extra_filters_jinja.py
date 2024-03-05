@@ -2,7 +2,7 @@ import datetime
 import re
 import time
 import urllib.request, urllib.parse, urllib.error
-import zoneinfo
+from backports import zoneinfo
 from bs4 import BeautifulSoup
 from django.core import exceptions as django_exceptions
 from django.utils.encoding import force_str
